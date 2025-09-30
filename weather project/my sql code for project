@@ -1,6 +1,6 @@
 create DATABASE weatherproject;
 show databases;
-use weatherproject; -- this means that we are using this database 
+use weatherproject;
 
 DROP TABLE IF EXISTS daily_weather;
 DROP TABLE IF EXISTS thresholds;
@@ -31,7 +31,6 @@ select avg(wspd_mph) from daily_weather
 
 -- on how many days did wspd_mph>20
 select count(case when wspd_mph > 20 then 1 end) as "windspeed greater than 20" from daily_weather 
-
 
 -- on how many days temp>90, temp<32 or wind>20 (extreme weather days)
 select count(
