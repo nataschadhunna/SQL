@@ -4,12 +4,6 @@ use emailproject;
 
 show tables;
 
-select * from Unsubscribes
-select * from Campaign_Performance
-select * from Campaigns
-select * from Email_Engagement
-select * from Users
-
 /* 1. What is the overall unsubscribe rate?
 			-> total unsubscribe rate = (total unsubscribed users/total users) * 100     */
 select 
@@ -104,7 +98,4 @@ join campaigns c on c.campaign_id = u.campaign_id
 group by c.category, u.reason
 order by total_unsubscribes desc; -- reasons do vary by category.
 
--- 9. Who are the “at-risk” users?
-
--- 10. What’s your final story?
 
