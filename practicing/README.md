@@ -6,3 +6,5 @@ This project involves me to analyse walmart's sales, where the key focus was to 
 The dataset I used is sourced from [kaggle](https://www.kaggle.com/datasets/mikhail1681/walmart-sales). I cleaned and standardized the dataset using excel (such as date formatting) before running my analyses on SQL. 
 
 Based on my analysis, I found that Thanksgiving generated the highest weekly sales and the correlation between fuel price and walmart's weekly sales varied by location, indicating potential regional differences in consumer behavior and cost sensitivity.
+
+### project 2: email marketing data analysis
